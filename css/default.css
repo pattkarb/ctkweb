@@ -1,3 +1,21 @@
 body {
     font-family: 'Athiti', sans-serif;
 }
+
+.borderless .list-group-item {
+    border: none;
+    font-family: 'Athiti', sans-serif;
+    overflow:hidden;  
+    position: relative;
+    display: block;
+    padding: 1px 20px;
+    margin-bottom: -1px;
+    border: 0px ;
+    font-size: 12px;
+}
+
+.secondary-heading {
+    color: #15295f;
+    font-style: bold;
+    font-size: 16px;
+}
