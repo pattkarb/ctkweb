@@ -11,11 +11,51 @@ body {
     padding: 1px 20px;
     margin-bottom: -1px;
     border: 0px ;
-    font-size: 12px;
+    font-size: 16px;
+   
 }
+
+a {
+    color: rgb(122, 30, 76);
+    font-style: bold;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    
+}
+
 
 .secondary-heading {
     color: #15295f;
     font-style: bold;
-    font-size: 16px;
+    font-size: 18px;
+   
 }
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    padding: 5px;
+  }
+  
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+
+
