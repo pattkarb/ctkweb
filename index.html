@@ -28,18 +28,39 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#"><b>ข้อมูลหน่วยงาน</b></a></li>
-                    <li><a href="#">ข้อมูลหน่วยงาน</a></li>
-                    <li><a href="#">ติดต่อเรา</a></li>
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li class="active">
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                ข้อมูลหน่วยงาน <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <div class="header">
+                                    <h2>Mega Menu</h2>
+                                </div>
+                                <h3>Category 1</h3>
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="ค้นหา">
+                          </div>
+                    </form>
+                    </li>
                     <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><img src="/images/cklogo.png" alt="" width="400"></li>
                 </ul>
             </div>
         </div>
     </nav>
-
+    
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -235,7 +256,7 @@
                     </tr>
                 </table>
             </div>
- <hr>
+            <hr>
 
 
         </div>
