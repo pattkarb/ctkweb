@@ -27,17 +27,9 @@ a:hover {
 
 .hover13 figure:hover img {
 	opacity: 1;
-	-webkit-animation: flash 1.5s;
 	animation: flash 1.5s;
 }
-@-webkit-keyframes flash {
-	0% {
-		opacity: .4;
-	}
-	100% {
-		opacity: 1;
-	}
-}
+
 @keyframes flash {
 	0% {
 		opacity: .4;
@@ -47,19 +39,39 @@ a:hover {
 	}
 }
 
-#slideshow {
-    margin: 80px auto;
-    position: relative;
-    width: 240px;
-    height: 240px;
-    padding: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+
+ /* slider Right */  
+  #slideshow {
+	overflow: hidden;
+	height: 450px;
+	width: 100%;
+	margin: 0 auto;
   }
   
-#slideshow > div {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
+  .slide-wrapper {
+	width: 100%;
+	-webkit-animation: slide 18s ease infinite;
   }
+  
+  .slide {
+	float: left;
+	height: 450px;
+	width: 100%;
+  }
+  
+  .slide-number {
+	color: #000;
+	text-align: center;
+	font-size: 10em;
+  }
+  
+  @-webkit-keyframes slide {
+	20% {margin-left: 0px;}
+	30% {margin-left: -728px;}
+	50% {margin-left: -728px;}
+	60% {margin-left: -1456px;}
+	70% {margin-left: -1456px;}
+	80% {margin-left: -2184px;}
+	90% {margin-left: -2184px;}
+  }
+  
