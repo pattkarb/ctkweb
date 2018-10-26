@@ -2,19 +2,6 @@ body {
     font-family: 'Athiti', sans-serif;
 }
 
-.borderless .list-group-item {
-    border: none;
-    font-family: 'Athiti', sans-serif;
-    overflow:hidden;  
-    position: relative;
-    display: block;
-    padding: 1px 20px;
-    margin-bottom: -1px;
-    border: 0px ;
-    font-size: 16px;
-   
-}
-
 a {
     color: rgb(122, 30, 76);
     font-style: bold;
@@ -25,75 +12,6 @@ a:visited {
 a:hover {
     text-decoration: none;
       
-}
-
-
-.secondary-heading {
-    color: #15295f;
-    font-style: bold;
-    font-size: 18px;
-   
-}
-
-.navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-  }
-  
-  /* Add a gray background color and some padding to the footer */
-  footer {
-    padding: 5px;
-  }
-  
-.carousel-inner img {
-    width: 100%; /* Set width to 100% */
-    margin: auto;
-    min-height:200px;
-}
-
-/* Hide the carousel text when the screen is less than 600 pixels wide */
-@media (max-width: 600px) {
-  .carousel-caption {
-    display: none; 
-  }
-}
-
-/*  image text center*/
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
-
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-}
-
-.bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 
@@ -128,3 +46,20 @@ a:hover {
 		opacity: 1;
 	}
 }
+
+#slideshow {
+    margin: 80px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
