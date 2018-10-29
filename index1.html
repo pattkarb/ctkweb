@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="/css/default.css">
     <script src="/js/default.js"></script>
-
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
 </head>
 
 <body>
@@ -154,20 +154,15 @@
 
                 </div>
                 <div class="col-sm-10">
-                    <div class="w3-container">
-                        <div id="slideshow">
-                            <div class="slide-wrapper">
-                                <div class="slide"><img src="/images/mslider/01.jpg" alt=""></div>
-                                <div class="slide"><img src="/images/mslider/02.jpg" alt=""></div>
-                                <div class="slide"><img src="/images/mslider/03.jpg" alt=""></div>
-                                <div class="slide"><img src="/images/mslider/04.jpg" alt=""></div>
-                                <div class="slide"><img src="/images/mslider/05.jpg" alt=""></div>
-                                <div class="slide"><img src="/images/mslider/06.jpg" alt=""></div>
-                                <div class="slide"><img src="/images/mslider/07.jpg" alt=""></div>
-                            </div>
-                        </div>
+                    <div class="cycle-slideshow"
+                      data-cycle-loader="wait"
+                      data-cycle-fx=fadeout
+                    >
+                        <img src="http://malsup.github.io/images/p1.jpg">
+                        <img src="http://malsup.github.io/images/p2.jpg">
+                        <img src="http://malsup.github.io/images/p3.jpg">
+                        <img src="http://malsup.github.io/images/p4.jpg">
                     </div>
-
                 </div>
             </div>
         </div>
