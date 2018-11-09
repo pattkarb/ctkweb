@@ -164,7 +164,8 @@
 
         <!-- News Section -->
         <div class="w3-container w3-padding-32"">
-            <h3 class=" w3-border-bottom w3-border-light-grey w3-padding-16">ข่าวประชาสัมพันธ์</h3>
+            <h3 class=" w3-border-bottom w3-border-light-grey
+            w3-padding-16">ข่าวประชาสัมพันธ์</h3>
             <p>ข่าวประชาสัมพันธ์กิจกรรมต่าง ๆ ในโรงพยาบาล / ข่าว ประกาศ ประกวดราคา จ้างเหมา</p>
             <div class="rows">
                 <div class="col-sm-1">
@@ -173,37 +174,127 @@
                 <div class="col-sm-1">&nbsp;</div>
                 <div class="col-sm-10">
                     <h4><b>ข่าวประกาศ</b></h4>
-                    
-                    <h5>&nbsp;&nbsp;&nbsp;<img src="images/icon9.gif" width='15'>&nbsp;เอกสารประกอบการทำแผนยุทธศาสตร์ คปสอ.ชาติตระการ ปี 2560 <a href="#"><b>รายละเอียด <img src="/images/n_new9.gif"></b></a></h5>
-                    <h5>&nbsp;&nbsp;&nbsp;<img src="images/icon9.gif" width='15'>&nbsp;เอกสาร คปสอ.ชาติตระการ ปี 2560 <a href="#"><b>รายละเอียด <img src="/images/n_new9.gif"></b></a></h5>
-                    <h5>&nbsp;&nbsp;&nbsp;<img src="images/icon9.gif" width='15'>&nbsp;เอกสารตัวชี้วัดสาธารณสุข คปสอ.ชาติตระการ ปี 2560 <a href="#"><b>รายละเอียด </b></a></h5>
-                   
+
+                    <h5>&nbsp;&nbsp;&nbsp;<img src="images/icon9.gif" width='15'>&nbsp;เอกสารประกอบการทำแผนยุทธศาสตร์
+                        คปสอ.ชาติตระการ ปี 2560 <a href="#"><b>รายละเอียด <img src="/images/n_new9.gif"></b></a></h5>
+                    <h5>&nbsp;&nbsp;&nbsp;<img src="images/icon9.gif" width='15'>&nbsp;เอกสาร คปสอ.ชาติตระการ ปี 2560
+                        <a href="#"><b>รายละเอียด <img src="/images/n_new9.gif"></b></a></h5>
+                    <h5>&nbsp;&nbsp;&nbsp;<img src="images/icon9.gif" width='15'>&nbsp;เอกสารตัวชี้วัดสาธารณสุข
+                        คปสอ.ชาติตระการ ปี 2560 <a href="#"><b>รายละเอียด </b></a></h5>
+
                 </div>
             </div>
-            <div class="row"><div class="col-sm-12"><hr></div></div>    
+            <div class="row">
+                <div class="col-sm-12">
+                    <hr>
+                </div>
+            </div>
             <div class="rows">
-                    <div class="col-sm-1">
-                        <img src="/images/news/02.png">
-                    </div>
-                    <div class="col-sm-1">&nbsp;</div>
-                    <div class="col-sm-10">
-                        <h4><b>ประกวดราคา/จ้างเหมา</b></h4>
-                        
-                    <h5>&nbsp;&nbsp;&nbsp;<img src="images/icon9.gif" width='15'>&nbsp;คำสั่งจัดตั้งกลุ่มเจ้าหน้าที่ตรวจสอบการดำเนินงาน <a href="#"><b>รายละเอียด <img src="/images/cool.gif"></b></a></h5>
-                    <h5>&nbsp;&nbsp;&nbsp;<img src="images/icon9.gif" width='15'>&nbsp;บทวิเคราะห์การจัดซื้อจัดจ้าง ปี 2560,2561(ไตรมาส3)  <a href="#"><b>รายละเอียด <img src="/images/cool.gif"></b></a></h5>
-
-                    </div>
+                <div class="col-sm-1">
+                    <img src="/images/news/02.png">
                 </div>
-                <div class="row"><div class="col-sm-12"><hr></div></div>
+                <div class="col-sm-1">&nbsp;</div>
+                <div class="col-sm-10">
+                    <h4><b>ประกวดราคา/จ้างเหมา</b></h4>
+
+                    <h5>&nbsp;&nbsp;&nbsp;<img src="images/icon9.gif" width='15'>&nbsp;คำสั่งจัดตั้งกลุ่มเจ้าหน้าที่ตรวจสอบการดำเนินงาน
+                        <a href="#"><b>รายละเอียด <img src="/images/cool.gif"></b></a></h5>
+                    <h5>&nbsp;&nbsp;&nbsp;<img src="images/icon9.gif" width='15'>&nbsp;บทวิเคราะห์การจัดซื้อจัดจ้าง ปี
+                        2560,2561(ไตรมาส3) <a href="#"><b>รายละเอียด <img src="/images/cool.gif"></b></a></h5>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <hr>
+                </div>
+            </div>
         </div>
 
-        <!-- News Section -->
+        <!-- Download Section -->
         <div class="w3-container w3-padding-32"">
-                <h3 class=" w3-border-bottom w3-border-light-grey w3-padding-16">เอกสารดาวน์โหลด</h3>
-                <p>เอกสารวิชาการ รายงาน คู่มือ แบบฟอร์ม</p>
-                <div class="rows">
+                <h3 class=" w3-border-bottom w3-border-light-grey
+            w3-padding-16">เอกสารดาวน์โหลด</h3>
+            <p>เอกสารวิชาการ รายงาน คู่มือ แบบฟอร์ม</p>
+            <div class="rows">
+                <div class="col-sm-6">
+
+                    <ul class="w3-ul w3-card-4">
+                        <li class="w3-bar">
+                            <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+                            <img src="/images/news/05.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+                            <div class="w3-bar-item">
+                                <span class="w3-large">Mike</span><br>
+                                <span>Web Designer</span>
+                            </div>
+                        </li>
+                        <li class="w3-bar">
+                            <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+                            <img src="/images/news/06.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+                            <div class="w3-bar-item">
+                                <span class="w3-large">Jill</span><br>
+                                <span>Support</span>
+                            </div>
+                        </li>
+                        <li class="w3-bar">
+                            <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+                            <img src="/images/news/07.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+                            <div class="w3-bar-item">
+                                <span class="w3-large">Jane</span><br>
+                                <span>Accountant</span>
+                            </div>
+                        </li>
+                    </ul>
+
                 </div>
+                <div class="col-sm-6">
+
+                        <ul class="w3-ul w3-card-4">
+                                <li class="w3-bar">
+                                    <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+                                    <img src="/images/news/08.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+                                    <div class="w3-bar-item">
+                                        <span class="w3-large">Mike</span><br>
+                                        <span>Web Designer</span>
+                                    </div>
+                                </li>
+                                <li class="w3-bar">
+                                    <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+                                    <img src="/images/news/09.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+                                    <div class="w3-bar-item">
+                                        <span class="w3-large">Jill</span><br>
+                                        <span>Support</span>
+                                    </div>
+                                </li>
+                                <li class="w3-bar">
+                                    <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+                                    <img src="/images/news/10.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+                                    <div class="w3-bar-item">
+                                        <span class="w3-large">Jane</span><br>
+                                        <span>Accountant</span>
+                                    </div>
+                                </li>
+                            </ul>
+
+                </div>
+            </div>
+            <div class="row"><div class="col-sm-12"><hr></div></div>
         </div>
+
+        <!-- Download Section -->
+        <div class="w3-container w3-padding-32"">
+            <h3 class=" w3-border-bottom w3-border-light-grey w3-padding-16">Story</h3>
+            <p>รวบรวมเนื้อหา เกี่ยวกับ "เรื่องเล่าเร้าพลัง" เรื่องประทับใจ ..</p>
+            <div class="rows">
+                <div class="col-sm-6">
+                    
+                </div>
+                <div class="col-sm-6">
+
+                </div>
+            </div>
+        </div>
+
 
         <!-- End page content -->
     </div>
@@ -348,6 +439,7 @@
         </div>
     </footer>
 
+    
 </body>
 
 </html>
