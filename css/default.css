@@ -62,3 +62,12 @@ a:hover {
 	left:0px;
 }
 
+
+#inneriframe
+{
+position:absolute;
+top:-300px;
+left:-250px;
+width:700px;
+height:700px;
+}
